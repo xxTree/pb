@@ -61,7 +61,7 @@ vcpkg_configure_cmake(
          ${FEATURE_OPTIONS}
 )
 
-#vcpkg_install_cmake()
+vcpkg_install_cmake()
 
 # It appears that at this point the build hasn't actually finished. There is probably
 # a process spawned by the build, therefore we need to wait a bit.
